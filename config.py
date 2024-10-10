@@ -17,4 +17,4 @@ class Config:
     WHOIS_TIMEOUT: int = int(os.getenv('WHOIS_TIMEOUT', '10'))  # в секундах
     DATABASE_PATH: str = os.getenv('DATABASE_PATH', 'domains.db')
     USERS_FILE: str = 'users.json'
-    ADMIN_USER_IDS: list = [6153626642]  # Замените на ваши user_id или добавьте других администраторов
+    ADMIN_USER_IDS: list = []  # Замените на ваши user_id или добавьте других администраторов
