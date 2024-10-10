@@ -20,3 +20,4 @@ users.json
 *.xml
 *.iml
 idea/
+.name
